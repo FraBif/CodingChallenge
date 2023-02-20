@@ -1,0 +1,81 @@
+body { 
+    background-image: url(background.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.container{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 920px;
+    height: 600px;
+    border-radius: 15px;
+    margin:auto;
+    padding: 4%;
+    margin-top: 25px;
+}
+
+header{
+    text-align: center;
+
+}
+
+.logo{
+    width: 220px;
+    display: inline-block;
+    position: relative;
+    top: 20px;
+}
+
+.logotext{
+    color:lime;
+    font: bold;
+}
+
+.barra{
+    background-color: limegreen;
+    padding: 8px;
+    position: relative;
+    bottom: 20px;
+}
+
+.contenuto{
+    position: relative;
+    bottom: 20px;
+}
+
+.lista{
+    list-style: none;
+    padding: 0;
+    color: white;
+}
+
+
+.lista li{
+    margin: 0px 0px 5px 0px;
+}
+
+.lista li label{
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.carica1{
+    width: 320px;
+    height: 30px;
+    background-color: orange;
+    border-radius: 5px;
+}
+
+.carica2{
+    width: 500px;
+    height: 30px;
+    background-color:limegreen;
+    border-radius: 5px;
+}
+
+.carica3{
+    width: 200px;
+    height: 30px;
+    background-color: red;
+    border-radius: 5px;
+}
